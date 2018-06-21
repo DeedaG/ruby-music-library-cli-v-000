@@ -86,7 +86,7 @@ def play_song
         song = Song.all.sort_by{|s| s.name}.each.with_index(index to_i-1) do |song, index|
 					if index == "#{i}"
 		      puts "Playing #{song} by #{song.artist}"
-				else 
+				else
 				end
 			end
 		else
