@@ -85,11 +85,10 @@ def play_song
 			if song_input == 1..Song.all.length
 				
 					puts "Playing #{song} by #{song.artist}"
-					if song
-					end
+					
 				end
-				end
+				
 			end
 		end
 
-	end
+	
