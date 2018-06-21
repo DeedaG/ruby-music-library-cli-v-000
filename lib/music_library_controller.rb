@@ -88,7 +88,6 @@ def play_song
 		      puts "Playing #{song} by #{song.artist}"
 				end
 			end
-		end 
+		end
 	end
 end
-			
