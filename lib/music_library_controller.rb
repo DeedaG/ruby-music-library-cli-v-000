@@ -88,8 +88,4 @@ def play_song
 		
 		end
 
-		def list_artist
-
-	  end
-
 	end
