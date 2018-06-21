@@ -83,7 +83,7 @@ def play_song
 			song_input = gets.strip
 			song = nil
 			if song_input == 1..Song.all.length
-				song = Song.all.sort_by{|s| s.name}.each.with_index(song_input to_i) do |song, i|
+				song = Song.all.sort_by{|s| s.name}.each.with_index(song_input to_i-1) do |song, i|
 				if index == "i"
 					puts "Playing #{song} by #{song.artist}"
 				end
