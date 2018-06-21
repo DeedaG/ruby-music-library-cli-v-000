@@ -83,11 +83,11 @@ def play_song
 			song_input = gets.strip
 			song = nil
 			if song_input == 1..Song.all.length
-				
+
 					puts "Playing #{song} by #{song.artist}"
-					
+
 				end
-				
+
 			end
 		end
 
