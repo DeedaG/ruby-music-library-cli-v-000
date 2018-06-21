@@ -79,14 +79,7 @@ def list_songs_by_genre
 end
 
 def play_song
-	    puts "Which song number would you like to play?"
-			song_input = gets.strip
-			song = nil
-			  song = Song.all.sort_by{|s| s.name}.each.with_index(song_input.to_i) do |song, index|
-					if index == ("#{i}"  && <= Song.all.length && > 0)
-					 puts "Playing #{song} by #{song.artist}"
-			 end
-     end
+	    
 		end
 
 	end
