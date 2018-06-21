@@ -87,6 +87,7 @@ def play_song
 					if index == i
 		      puts "#{index}. #{song.artist} - #{song} - #{song.genre}"
 				end
+			end
 					puts "Playing #{song} by #{song.artist}"
 
 				end
