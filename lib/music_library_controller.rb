@@ -84,7 +84,7 @@ def play_song
 			song = nil
 			if song_input == 1..Song.all.length
 			song = Song.all.sort_by{|s| s.name}.each.with_index(song_input.to_i) do |song, i|
-					 puts "Playing #{song.name} by #{song.artist}"
+					 puts "Playing #{song.name} by #{song.artist.name}"
 			 end
 		 end
 		end
